@@ -39,7 +39,6 @@ def get_all_audiences():
             print([k.find_all('div', class_='mb-2') for k in j.find_all('td', class_='timetable__grid-day') if k.find_all('div', class_='mb-2') else ""])
         break
 
-
-
+print(123)
 if __name__ == "__main__":
     get_all_audiences()
